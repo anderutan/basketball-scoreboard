@@ -7,6 +7,7 @@ let plusTwoGuest = document.querySelector('.plus-2-g');
 let plusThreeGuest = document.querySelector('.plus-3-g');
 let guestScore = document.querySelector('.guest-score');
 let resetBtn = document.querySelector('.reset');
+let restartBtn = document.querySelector('.restart');
 
 let gScore = 0;
 let hScore = 0;
@@ -85,4 +86,8 @@ resetBtn.addEventListener('click', () => {
     alert('Please reply Yes or No!');
     return;
   }
+});
+
+restartBtn.addEventListener('click', () => {
+  location.reload();
 });
