@@ -54,3 +54,9 @@ body {
   border: 2px solid white;
   border-radius: 10px;
 }
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #303f84;
+  transition: all 0.5s;
+}
