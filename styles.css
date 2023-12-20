@@ -60,3 +60,7 @@ body {
   background-color: #303f84;
   transition: all 0.5s;
 }
+
+.dim {
+  color: #943446;
+}
