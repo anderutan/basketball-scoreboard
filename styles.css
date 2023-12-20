@@ -70,5 +70,12 @@ body {
 .restart {
   height: 100px;
   width: 150px;
-  margin-top: 50px;
+}
+
+.restart {
+  margin-bottom: 30px;
+}
+
+.extra-btn {
+  width: 150px;
 }
